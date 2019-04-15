@@ -44,7 +44,7 @@ ssr://MTQ5LjEyOS43OC4xNjc6NDc2NTg6YXV0aF9zaGExX3Y0OmNoYWNoYTIwOmh0dHBfc2ltcGxlOl
 
 iOS需要自己手动登录Apple ID去App Store下载
 
-1.切换App Store账号-ID: lu1638long@163.com 密码: SockBoom233 注意特殊符号与大小写（千万不要试图登陆iCloud，会上传您的照片与通讯录到这个账户上）
+1.切换App Store账号-ID: lu1638long@163.com 密码: SockBoom114514 注意特殊符号与大小写（千万不要试图登陆iCloud，会上传您的照片与通讯录到这个账户上）
 
 2.商店搜索Shadowrocket下载安装
 
