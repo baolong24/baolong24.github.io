@@ -66,10 +66,8 @@ aHR0cHM6Ly93d3cubHNqYWlycG9ydC5jb20vbGluay9raWN5TGthelNaYXNqTkJo
 [使用教程](https://baolong24.github.io/windowsgudie.pdf)
 
 [Android](https://sockboom.top/ssr-download/ssr-android.apk)
-[使用教程](https://baolong24.github.io/androidguide.mp4)
 
 [macOS](https://sockboom.top/ssr-download/ssr-mac.dmg)
-[使用教程](https://baolong24.github.io/macguide.mp4)
 
 iOS需要自己手动登录Apple ID去App Store下载
 
