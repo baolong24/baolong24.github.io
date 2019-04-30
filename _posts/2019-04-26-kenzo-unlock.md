@@ -17,7 +17,7 @@ tags: Android
 下载这些文件
 1.[魔改后的bl](https://baolong24.github.io/RN3_unlockblonly.rar)
 2.[MiFlash](http://bigota.d.miui.com/tools/MiFlash2018-5-28-0.zip)
-3.[进入9008的工具](https://baolong24.github.io%E9%AB%98%E9%80%9Afastboot%E4%B8%80%E9%94%AE%E8%BF%9B9008.zip)
+3.[进入9008的工具](https://baolong24.github.io/%E9%AB%98%E9%80%9Afastboot%E4%B8%80%E9%94%AE%E8%BF%9B9008.zip)
 
 ## 开始解锁
 
