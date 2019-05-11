@@ -25,9 +25,7 @@ type: page
 
 **若您想使用这个 jekyll 博客主题，请访问：[https://github.com/Gaohaoyang/gaohaoyang.github.io](https://github.com/Gaohaoyang/gaohaoyang.github.io)**
 
-## 友情链接
-
-[怀化市新华中学](http://hhxhzx.com)|[哔哩哔哩](https://www.bilibili.com)
+## 打个广告?
 
 厚颜无耻的推广下这个群
 欢迎加入LineageOS②
