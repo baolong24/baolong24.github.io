@@ -16,15 +16,15 @@ tags: SSR
 https://lsj.best/egZZ3Yq5eOWzDjrF
 
 ## SSR客户端下载
-[Windows](https://sockboom.cn/ssr-download/ssr-win.7z)
+[Windows](https://sockboom.download/ssr-download/ssr-win.7z)
 
-[Windows第三方SSR客户端SSTap](https://sockboom.cn/ssr-download/SSTap.7z)
+[Windows第三方SSR客户端SSTap](https://sockboom.download/ssr-download/SSTap.7z) [使用教程](https://baolong24.github.io/windowsgudie.pdf)
 
-[使用教程](https://baolong24.github.io/windowsgudie.pdf)
+[Android](https://sockboom.download/ssr-download/ssr-android.apk)
 
-[Android](https://sockboom.cn/ssr-download/ssr-android.apk)
+[macOS](https://sockboom.download/ssr-download/ssr-mac.dmg)
 
-[macOS](https://sockboom.cn/ssr-download/ssr-mac.dmg)
+[路由器](https://sockboom.download/ssr-download/jiaocheng.doc)
 
 iOS需要自己手动登录Apple ID去App Store下载
 
