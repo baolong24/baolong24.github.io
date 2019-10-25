@@ -13,7 +13,7 @@ tags: SSR
 
 ## 这里是SSR配置链接
 
-https://lsj.best/egZZ3Yq5eOWzDjrF?sub=1
+https://lsj.best/link/egZZ3Yq5eOWzDjrF?sub=1
 
 ## SSR客户端下载
 [Windows](https://sockboom.download/ssr-download/ssr-win.7z)
