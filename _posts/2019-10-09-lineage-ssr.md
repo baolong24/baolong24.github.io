@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Lineage OS 群组限定SSR"
-date:   2019-10-18 08:09:53
+date:   2019-10-29 11:20:53
 categories: SSR
 author: 1404のxiaobao(凛凛凛个鳖)
 excerpt: 订阅链接用不了的了解下
@@ -12,8 +12,7 @@ tags: SSR
 {:toc}
 
 ## 这里是SSR配置链接
-
-https://lsj.best/link/egZZ3Yq5eOWzDjrF?sub=1
+https://lsj.best/link/eNeDZ9iYaoSdcOyc?sub=1
 
 ## SSR客户端下载
 [Windows](https://sockboom.download/ssr-download/ssr-win.7z)
