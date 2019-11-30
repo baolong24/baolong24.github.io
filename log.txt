@@ -1,0 +1,101 @@
+root@instance-1:/home/baolong24/mokee-9# mka bacon
+============================================
+PLATFORM_VERSION_CODENAME=REL                                  PLATFORM_VERSION=9
+MK_VERSION=MK90.0-c5lte-201911302245-EXPERIMENTAL
+TARGET_PRODUCT=mk_c5lte
+TARGET_BUILD_VARIANT=userdebug
+TARGET_BUILD_TYPE=release
+TARGET_ARCH=arm64                                              TARGET_ARCH_VARIANT=armv8-a
+TARGET_CPU_VARIANT=generic                                     TARGET_2ND_ARCH=arm                                            TARGET_2ND_ARCH_VARIANT=armv8-a                                TARGET_2ND_CPU_VARIANT=cortex-a53
+HOST_ARCH=x86_64                                               HOST_2ND_ARCH=x86
+HOST_OS=linux
+HOST_OS_EXTRA=Linux-5.0.0-1025-gcp-x86_64-Ubuntu-18.04.3-LTS
+HOST_CROSS_OS=windows
+HOST_CROSS_ARCH=x86
+HOST_CROSS_2ND_ARCH=x86_64
+HOST_BUILD_TYPE=release
+BUILD_ID=PQ3A.190801.002
+OUT_DIR=/home/baolong24/mokee-9/out
+PRODUCT_SOONG_NAMESPACES= hardware/qcom/audio-caf/msm8952 hardware/qcom/display-caf/msm8952 hardware/qcom/media-caf/msm8952
+============================================
+ninja: no work to do.
+ninja: no work to do.
+$(shell date +%Y%m%d%H%M) was changed, regenerating...
+wildcard(device/qcom/sepolicy-legacy/legacy-common/*.te) was changed, regenerating...
+[617/1041] including system/sepolicy/Android.mk ...
+system/sepolicy/Android.mk:88: warning: Be careful when using the SELINUX_IGNORE_NEVERALLOWS flag. It does not work in user builds and using it will not stop you from failing CTS.
+[1041/1041] including vendor/samsung/c5lte/Android.mk ...
+[  0% 8/17131] Target buildinf..._prop_intermediates/build.pro Target buildinfo from: device/samsung/c5lte/system.prop
+[  0% 98/17131] build /home/ba...ntermediates/plat_sepolicy.ci /home/baolong24/mokee-9/out/host/linux-x86/bin/checkpolicy:  loading policy configuration from /home/baolong24/mokee-9/out/target/product/c5lte/obj/ETC/plat_sepolicy.cil_intermediates/plat_policy.conf
+/home/baolong24/mokee-9/out/host/linux-x86/bin/checkpolicy:  policy configuration loaded
+/home/baolong24/mokee-9/out/host/linux-x86/bin/checkpolicy:  writing CIL to /home/baolong24/mokee-9/out/target/product/c5lte/obj/ETC/plat_sepolicy.cil_intermediates/plat_sepolicy.cil
+[  0% 102/17131] build /home/b...ecovery_intermediates/sepolic /home/baolong24/mokee-9/out/host/linux-x86/bin/checkpolicy:  loading policy configuration from /home/baolong24/mokee-9/out/target/product/c5lte/obj/ETC/sepolicy.recovery_intermediates/sepolicy.recovery.conf
+/home/baolong24/mokee-9/out/host/linux-x86/bin/checkpolicy:  policy configuration loaded
+/home/baolong24/mokee-9/out/host/linux-x86/bin/checkpolicy:  writing binary representation (version 30) to /home/baolong24/mokee-9/out/target/product/c5lte/obj/ETC/sepolicy.recovery_intermediates/sepolicy.tmp
+[  0% 133/17131] build /home/b...ediates/plat_pub_versioned.ci Parsing /home/baolong24/mokee-9/out/target/product/c5lte/obj/ETC/sepolicy_neverallows_intermediates/plat_pub_policy.cil
+Parsing /home/baolong24/mokee-9/out/target/product/c5lte/obj/ETC/sepolicy_neverallows_intermediates/plat_pub_policy.cil
+[  0% 137/17131] Building Kernel Config                        make: 进入目录“/home/baolong24/mokee-9/kernel/samsung/c5lte”
+  GEN     /home/baolong24/mokee-9/out/target/product/c5lte/obj/KERNEL_OBJ/Makefile
+drivers/battery_v2/Kconfig:75:warning: type of 'SAMSUNG_BATTERY_ENG_TEST' redefined from 'boolean' to 'tristate'
+warning: (ARCH_MSM) selects DEVFREQ_GOV_MSM_BW_HWMON which has unmet direct dependencies (PM_DEVFREQ && (ARCH_MSM_KRAIT || ARCH_MSM_BIMC_BWMON))
+warning: (ARCH_MSM) selects DEVFREQ_GOV_MSM_BW_HWMON which has unmet direct dependencies (PM_DEVFREQ && (ARCH_MSM_KRAIT || ARCH_MSM_BIMC_BWMON))
+KCONFIG_SELINUX((null))
+KCONFIG_LOG_SELINUX((null))                                    KCONFIG_TIMA((null))
+KCONFIG_DMVERITY((null))
+KCONFIG_VARIANT((null))
+KCONFIG_DEBUG((null))
+#
+# configuration written to .config
+#
+make: 离开目录“/home/baolong24/mokee-9/kernel/samsung/c5lte”
+make: 进入目录“/home/baolong24/mokee-9/kernel/samsung/c5lte”
+  GEN     /home/baolong24/mokee-9/out/target/product/c5lte/obj/KERNEL_OBJ/Makefile
+scripts/kconfig/conf --savedefconfig=defconfig Kconfig
+drivers/battery_v2/Kconfig:75:warning: type of 'SAMSUNG_BATTERY_ENG_TEST' redefined from 'boolean' to 'tristate'
+warning: (ARCH_MSM) selects DEVFREQ_GOV_MSM_BW_HWMON which has unmet direct dependencies (PM_DEVFREQ && (ARCH_MSM_KRAIT || ARCH_MSM_BIMC_BWMON))
+warning: (ARCH_MSM) selects DEVFREQ_GOV_MSM_BW_HWMON which has unmet direct dependencies (PM_DEVFREQ && (ARCH_MSM_KRAIT || ARCH_MSM_BIMC_BWMON))
+make: 离开目录“/home/baolong24/mokee-9/kernel/samsung/c5lte”
+[  1% 276/17131] build /home/b...ermediates/vendor_sepolicy.ci /home/baolong24/mokee-9/out/host/linux-x86/bin/checkpolicy:  loading policy configuration from /home/baolong24/mokee-9/out/target/product/c5lte/obj/ETC/vendor_sepolicy.cil_intermediates/vendor_policy.conf
+/home/baolong24/mokee-9/out/host/linux-x86/bin/checkpolicy:  policy configuration loaded
+/home/baolong24/mokee-9/out/host/linux-x86/bin/checkpolicy:  writing CIL to /home/baolong24/mokee-9/out/target/product/c5lte/obj/ETC/vendor_sepolicy.cil_intermediates/vendor_policy_raw.cil
+Parsing /home/baolong24/mokee-9/out/target/product/c5lte/obj/ETC/sepolicy_neverallows_intermediates/plat_pub_policy.cil
+Parsing /home/baolong24/mokee-9/out/target/product/c5lte/obj/ETC/vendor_sepolicy.cil_intermediates/vendor_policy_raw.cil
+[  1% 322/17131] build /home/b...rmediates/vendor_file_context FAILED: /home/baolong24/mokee-9/out/target/product/c5lte/obj/ETC/vendor_file_contexts_intermediates/vendor_file_contexts
+/bin/bash -c "(m4 -s     system/sepolicy/vendor/file_contexts  /home/baolong24/mokee-9/out/target/product/c5lte/obj/ETC/sectxfile_nl_intermediates/sectxfile_nl    device/qcom/sepolicy-legacy/common/file_contexts  /home/baolong24/mokee-9/out/target/product/c5lte/obj/ETC/sectxfile_nl_intermediates/sectxfile_nl    device/qcom/sepolicy-legacy/msm8952/file_contexts  /home/baolong24/mokee-9/out/target/product/c5lte/obj/ETC/sectxfile_nl_intermediates/sectxfile_nl    device/qcom/sepolicy-legacy/test/file_contexts  /home/baolong24/mokee-9/out/target/product/c5lte/obj/ETC/sectxfile_nl_intermediates/sectxfile_nl    device/qcom/sepolicy-legacy/legacy-common/file_contexts  /home/baolong24/mokee-9/out/target/product/c5lte/obj/ETC/sectxfile_nl_intermediates/sectxfile_nl    device/mokee/sepolicy/qcom/vendor/file_contexts  /home/baolong24/mokee-9/out/target/product/c5lte/obj/ETC/sectxfile_nl_intermediates/sectxfile_nl    device/samsung/c5lte/sepolicy/file_contexts  /home/baolong24/mokee-9/out/target/product/c5lte/obj/ETC/sectxfile_nl_intermediates/sectxfile_nl    device/mokee/sepolicy/common/vendor/file_contexts  /home/baolong24/mokee-9/out/target/product/c5lte/obj/ETC/sectxfile_nl_intermediates/sectxfile_nl > /home/baolong24/mokee-9/out/target/product/c5lte/obj/ETC/vendor_file_contexts_intermediates/vendor_file_contexts.tmp ) && (/home/baolong24/mokee-9/out/host/linux-x86/bin/che/bin/bash -c "(m4 -s     system/sepolicy/vendor/file_contexts  /home/baolong24/mokee-9/out/target/product/c5lte/obj/ETC/sectxfile_nl_intermediates/sectxfile_nl    device/qcom/sepolicy-legacy/common/file_contexts  /home/baolong24/mokee-9/out/target/product/c5lte/obj/ETC/sectxfile_nl_intermediates/sectxfile_nl    device/qcom/sepolicy-legacy/msm8952/file_contexts  /home/baolong24/mokee-9/out/target/product/c5lte/obj/ETC/sectxfile_nl_intermediates/sectxfile_nl    device/qcom/sepolicy-legacy/test/file_contexts  /home/baolong24/mokee-9/out/target/product/c5lte/obj/ETC/sectxfile_nl_intermediates/sectxfile_nl    device/qcom/sepolicy-legacy/legacy-common/file_contexts  /home/baolong24/mokee-9/out/target/product/c5lte/obj/ETC/sectxfile_nl_intermediates/sectxfile_nl    device/mokee/sepolicy/qcom/vendor/file_contexts  /home/baolong24/mokee-9/out/target/product/c5lte/obj/ETC/sectxfile_nl_intermediates/sectxfile_nl    device/samsung/c5lte/sepolicy/file_contexts  /home/baolong24/mokee-9/out/target/product/c5lte/obj/ETC/sectxfile_nl_intermediates/sectxfile_nl    device/mokee/sepolicy/common/vendor/file_contexts  /home/baolong24/mokee-9/out/target/product/c5lte/obj/ETC/sectxfile_nl_intermediates/sectxfile_nl > /home/baolong24/mokee-9/out/target/product/c5lte/obj/ETC/vendor_file_contexts_intermediates/vendor_file_contexts.tmp ) && (/home/baolong24/mokee-9/out/host/linux-x86/bin/checkfc /home/baolong24/mokee-9/out/target/product/c5lte/obj/ETC/sepolicy_intermediates/sepolicy /home/baolong24/mokee-9/out/target/product/c5lte/obj/ETC/vendor_file_contexts_intermediates/vendor_file_contexts.tmp ) && (/home/baolong24/mokee-9/out/host/linux-x86/bin/fc_sort /home/baolong24/mokee-9/out/target/product/c5lte/obj/ETC/vendor_file_contexts_intermediates/vendor_file_contexts.tmp /home/baolong24/mokee-9/out/target/product/c5lte/obj/ETC/vendor_file_contexts_intermediates/vendor_file_contexts )"libsepol.context_from_record: type hal_lineage_livedisplay_sysfs_exec is not defined
+libsepol.context_from_record: could not create context structure
+/home/baolong24/mokee-9/out/target/product/c5lte/obj/ETC/vendor_file_contexts_intermediates/vendor_file_contexts.tmp: line 1074 has invalid context u:object_r:hal_lineage_livedisplay_sysfs_exec:s0
+libsepol.context_from_record: type hal_lineage_livedisplay_sysfs_exec is not defined
+libsepol.context_from_record: could not create context structure
+/home/baolong24/mokee-9/out/target/product/c5lte/obj/ETC/vendor_file_contexts_intermediates/vendor_file_contexts.tmp: line 1074 has invalid context u:object_r:hal_lineage_livedisplay_sysfs_exec:s0
+Error: could not load context file from /home/baolong24/mokee-9/out/target/product/c5lte/obj/ETC/vendor_file_contexts_intermediates/vendor_file_contexts.tmp
+[  1% 326/17131] //system/vold...aster clang-tidy Keymaster.cp [  1% 327/17131] Building Kernel
+make: 进入目录“/home/baolong24/mokee-9/kernel/samsung/c5lte”
+  GEN     /home/baolong24/mokee-9/out/target/product/c5lte/obj/KERNEL_OBJ/Makefile
+scripts/kconfig/conf --silentoldconfig Kconfig
+drivers/battery_v2/Kconfig:75:warning: type of 'SAMSUNG_BATTERY_ENG_TEST' redefined from 'boolean' to 'tristate'
+warning: (ARCH_MSM) selects DEVFREQ_GOV_MSM_BW_HWMON which has unmet direct dependencies (PM_DEVFREQ && (ARCH_MSM_KRAIT || ARCH_MSM_BIMC_BWMON))
+warning: (ARCH_MSM) selects DEVFREQ_GOV_MSM_BW_HWMON which has unmet direct dependencies (PM_DEVFREQ && (ARCH_MSM_KRAIT || ARCH_MSM_BIMC_BWMON))
+  GEN     /home/baolong24/mokee-9/out/target/product/c5lte/obj/KERNEL_OBJ/Makefile
+  CHK     include/generated/uapi/linux/version.h
+  CC      scripts/mod/devicetable-offsets.s                      GEN     scripts/mod/devicetable-offsets.h                      HOSTCC  scripts/mod/file2alias.o
+  HOSTLD  scripts/mod/modpost                                    Using /home/baolong24/mokee-9/kernel/samsung/c5lte as source for kernel
+  CHK     include/generated/utsrelease.h                         CALL    /home/baolong24/mokee-9/kernel/samsung/c5lte/scripts/checksyscalls.sh
+  CHK     include/generated/compile.h                          make[2]: “arch/arm64/boot/Image.gz”已是最新。
+make: 离开目录“/home/baolong24/mokee-9/kernel/samsung/c5lte”   Building DTBs
+make: 进入目录“/home/baolong24/mokee-9/kernel/samsung/c5lte”     CC      scripts/mod/devicetable-offsets.s
+  GEN     scripts/mod/devicetable-offsets.h                      HOSTCC  scripts/mod/file2alias.o
+  HOSTLD  scripts/mod/modpost                                    DTC     arch/arm64/boot/dts/samsung/msm8952/../../msm8952-sec-c5lte-chn-hk-r09.dtb                                          Warning (device_type_is_string): "device_type" property in /soc/rgb is not a string
+Warning (reg_format): "reg" property in /reserved-memory/lk_region@0 has invalid length (16 bytes) (#address-cells == 2, #size-cells == 1)
+Warning (reg_format): "reg" property in /reserved-memory/secdbg_region@0 has invalid length (16 bytes) (#address-cells == 2, #size-cells == 1)
+Warning (reg_format): "reg" property in /reserved-memory/klog_region@0 has invalid length (16 bytes) (#address-cells == 2, #size-cells == 1)
+Warning (avoid_default_addr_size): Relying on default #address-cells value for /reserved-memory/lk_region@0
+Warning (avoid_default_addr_size): Relying on default #size-cells value for /reserved-memory/lk_region@0
+Warning (avoid_default_addr_size): Relying on default #address-cells value for /reserved-memory/secdbg_region@0
+Warning (avoid_default_addr_size): Relying on default #size-cells value for /reserved-memory/secdbg_region@0
+Warning (avoid_default_addr_size): Relying on default #address-cells value for /reserved-memory/klog_region@0
+Warning (avoid_default_addr_size): Relying on default #size-cells value for /reserved-memory/klog_region@0
+make: 离开目录“/home/baolong24/mokee-9/kernel/samsung/c5lte”
+ninja: build stopped: subcommand failed.
+22:47:21 ninja failed with: exit status 1
+
+#### failed to build some targets (01:57 (mm:ss)) ####
