@@ -1,0 +1,1 @@
+error: ninja: 'kernel/xiaomi/mido/arch/configs/mido_defconfig', needed by 'out/target/product/mido/obj/KERNEL_OBJ/.config', missing and no known rule to make it
