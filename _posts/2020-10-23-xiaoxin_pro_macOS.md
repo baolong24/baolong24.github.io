@@ -16,10 +16,15 @@ tags: PC macOS Hackintosh
 ## 电脑配置
 
 CPU：Intel® Core™ i5-10210U CPU @ 1.60GHz(4C8T)
+
 RAM：板载 16 GB 2666 MHz DDR4
+
 硬盘：忆联 AH530
+
 显卡：Intel UHD Graphics 620 & Nvdia MX350
+
 声卡：ALC257
+
 网卡：Intel AX201
 
 ## 安装步骤
