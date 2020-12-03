@@ -8,6 +8,9 @@ excerpt: 暑假的时候搞到一台雷蛇手机，因为官方的 TWRP 功能�
 tags: Android Build TWRP
 ---
 
+* content
+{:toc}
+
 # Razer Phone TWRP 适配心得
 暑假的时候搞到一台雷蛇手机，因为官方的 TWRP 功能基本上都是残废的，就想自己适配个
 不过这也是第一次适配，故把第一次的适配步骤写在博客里
