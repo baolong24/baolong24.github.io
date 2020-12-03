@@ -13,7 +13,9 @@ tags: Android Build TWRP
 
 # Razer Phone TWRP 适配心得
 暑假的时候搞到一台雷蛇手机，因为官方的 TWRP 功能基本上都是残废的，就想自己适配个
+
 不过这也是第一次适配，故把第一次的适配步骤写在博客里
+
 语文不是很好，所以可能说的不是很明白，见谅哈哈哈
 
 ## 配置编译环境
@@ -148,6 +150,7 @@ $(call inherit-product, device/razer/cheryl/device.mk)
 **关于 `recovery.wipe`**
 
 这个我也不知道有什么用，不过我看 A/B 分区的机子都有，我就照着格式搞了
+
 格式如下
 
 ```
@@ -165,8 +168,11 @@ $(call inherit-product, device/razer/cheryl/device.mk)
 
 ### 预编译内核
 这一步可有可无，如果您有现成的内核源码，则可以拿内核源码编译
+
 如果没有内核源码或官方未开源则可以从官方包的 `boot.img` 中提取内核
+
 具体怎么操作可以前往 [boot.mokeedev.com](boot.mokeedev.com)
+
 这里不在阐述
 
 有预编译内核后请在 `BoardConfig.mk` 中定义
@@ -191,20 +197,27 @@ BOARD_KERNEL_CMDLINE += androidboot.selinux=permissive
 ### init.rc
 
 不同机型，init 部分也不一样
+
 您可以参考 cheryl 的 init
+
 [https://github.com/baolong24/android_device_razer_cheryl/tree/twrp-9.0/recovery/root](https://github.com/baolong24/android_device_razer_cheryl/tree/twrp-9.0/recovery/root)
 
 ### bootctrl 和 gpt-utils
 如果你的设备采用 A/B 分区，那必须编译这两个组件
+
 确保 tree 里面有编译 `bootctrl` 和 `gpt-utils`
+
 这两个东西可以从其它机型的 tree 里面拿，通用的
+
 可以参考这两条 commit
 `bootctrl`: [https://github.com/baolong24/android_device_razer_cheryl/commit/7691eb8dea85dfcb8c92773ad54fb480f8a5e9f7](https://github.com/baolong24/android_device_razer_cheryl/commit/7691eb8dea85dfcb8c92773ad54fb480f8a5e9f7)
+
 `gpt-utils`: [https://github.com/baolong24/android_device_razer_cheryl/commit/fd3020e57d31ab30473f62d5340b1bc9d2b020a2](https://github.com/baolong24/android_device_razer_cheryl/commit/fd3020e57d31ab30473f62d5340b1bc9d2b020a2)
 
 ## 添加 Vendor Blobs
 
 这一步需要添加厂商闭源的组件，以保证 TWRP 的正常运行
+
 可以参考这条 [commit](https://github.com/baolong24/android_device_razer_cheryl/commit/e6391e029f9b91cad92f0bfd7a249def1827c7ca) 来添加
 
 ## 开始编译
@@ -220,16 +233,20 @@ mka recoveryimage
 
 ## 编译完成
 编译完成了，接下来干什么呢
+
 当然是发酷安装逼啊，哈哈哈哈
 
 ## 一些问题
 ### 我是 A/B 分区，但编译出来的只有 img 文件，没有 zip 的永久刷入包
 你可以参考这个 [commit](https://github.com/TeamWin/android_device_oneplus_guacamole/commit/42e2e80df2c59f1125a425ac5df1b751f5a28d35#diff-9c0d294c05fc1d88d698034609bb81c0c69196327594e4c69d2915c80fd9850c)
+
 然后在 TWRP 源码中加入 [https://gerrit.omnirom.org/#/c/android_build/+/33182/](https://gerrit.omnirom.org/#/c/android_build/+/33182/)
+
 来加入对 zip 包的编译
 
 ### data 加密前可以正常使用 TWRP，但是加密后就卡在 TWRP Logo
 1. 先抓 log 看看 blobs 有没有不齐
+
 2. 如果补齐后还是不行，请参考这条 [commit](https://github.com/baolong24/android_device_razer_cheryl/commit/88f61658ac858302cfb03104bd85011a6e892bf5) 来修复
 
 ### 我源码怎么拉不下来啊
