@@ -33,6 +33,7 @@ tags: iOS iPhone checkra1n
 2. 前往 [https://checkra.in](https://checkra.in) 下载适用于 Linux 的版本
    >若您的 PC 为 32 位，请下载 i486 版本，64 位请下载 x86_64 版本
 3. 打开终端，并按下列命令操作
+
 ```shell
 # 前往 checkra1n 所在文件夹
 cd ~/Download
@@ -43,6 +44,7 @@ chmod a+x checkra1n
 # 运行 checkra1n
 ./checkra1n
 ```
+
 4. 根据 checkra1n 的提示给您的 iPhone 进行越狱
 5. 越狱完成后您的 iPhone 会自动重启进入系统
 
