@@ -56,6 +56,7 @@ chmod a+x checkra1n
 4. 使用 TWRP 中的文件管理，将 checkra1n 移动到 /cache 或 /data，并给予 755 权限
 5. 将您的 iPhone 重启到 DFU 模式，然后连接到您的 Android 设备
 6. 使用 TWRP 中的终端功能，并按以下命令操作
+
 ```shell
 # 前往 checkra1n 所在文件夹
 cd /cache
@@ -63,6 +64,7 @@ cd /cache
 # 运行 checkra1n 进行越狱
 ./checkra1n -c
 ```
+
 7. 越狱完成后您的 iPhone 会自动重启进入系统
 #### 开始备份证书
 **接下来的步骤请确保国际互联网连通正常，如果您的国际互联网连接有问题，则在进行以下步骤时会失败或者非常缓慢。**
