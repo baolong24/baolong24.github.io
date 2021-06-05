@@ -25,6 +25,12 @@ type: page
 
 **若您想使用这个 jekyll 博客主题，请访问：[https://github.com/Gaohaoyang/gaohaoyang.github.io](https://github.com/Gaohaoyang/gaohaoyang.github.io)**
 
+## 友情链接
+
+**AimerNeige:** [https://aimerneige.com](https://aimerneige.com)
+
+**ReallySnow:** [https://reallysnow.top/](https://reallysnow.top)
+
 ## 打个广告?
 
 厚颜无耻的推广下这个群
