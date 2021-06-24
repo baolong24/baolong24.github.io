@@ -171,7 +171,7 @@ $(call inherit-product, device/razer/cheryl/device.mk)
 
 如果没有内核源码或官方未开源则可以从官方包的 `boot.img` 中提取内核
 
-具体怎么操作可以前往 [boot.mokeedev.com](boot.mokeedev.com)
+具体怎么操作可以前往 [boot.mokeedev.com](https://boot.mokeedev.com)
 
 这里不在阐述
 
